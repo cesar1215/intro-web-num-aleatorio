@@ -1,4 +1,4 @@
-# Lab: Seleccionar y Modificar Elementos
+# Lab: Obteniend un Número Aleatorio
 
 ## Objetivos
 - Obtener un numero aleatorio entre dos valors utilizando `Math.floor` y `Math.random`

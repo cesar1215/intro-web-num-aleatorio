@@ -9,6 +9,7 @@ Crea una variable "max" con el valor del numero 580
 Crea una variable "min" con el valor del numero 10 
 */
 let max = 580
+let min = 10
 
 
 /*
@@ -17,7 +18,8 @@ Crea una variable "numAleatorio" con el valor de
 un numero aleatorio entre el valor de la variable "min" y el valor de la variable "max"
 que creaste en el ejercicio 1.
 */
-let numAleatorio
+let numAleatorio = Math.floor(Math.random() * (max - min + 1) + min)
+console.log(numAleatorio)
 
 /*
 Ejercicio 3: 
@@ -27,4 +29,5 @@ Pista: utiliza el valor de la variable numAleatorio
 
 2. La propiedad left de bird tenga un valor de 250 pixeles
 */
-bird.style.left = '200px'
+bird.style.bottom = numAleatorio + 'px' 
+bird.style.left = '250px'

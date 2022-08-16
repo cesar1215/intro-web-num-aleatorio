@@ -5,10 +5,10 @@ let bird = document.querySelector(".bird")
 
 /*
 Ejercicio 1:
-Crea una variable "max" con el valor Math.ceil(580 - 100) 
-Crea una variable "min" con el valor Math.min(10.2) 
+Crea una variable "max" con el valor del numero 580 
+Crea una variable "min" con el valor del numero 10 
 */
-let max = Math.ceil(580.12 - 100.5);
+let max = 580
 
 
 /*

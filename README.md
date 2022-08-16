@@ -1,4 +1,4 @@
-# Lab: Obteniend un Número Aleatorio
+# Lab: Obteniendo un Número Aleatorio
 
 ## Objetivos
 - Obtener un numero aleatorio entre dos valors utilizando `Math.floor` y `Math.random`
@@ -14,9 +14,9 @@ En éste lab harás que `bird` aparezca en lugares aleatorios cada que cargues e
 ## Instrucciones
 Bifurca (fork) y clona (clone) este lab en tu entorno local. Navega a su directorio en la terminal, luego ejecuta el comando `code .` para abrir sus archivos en Visual Studio Code. 
 
-1. Crea una variable `max` con el valor `Math.ceil(580.12 - 100)` 
+1. Crea una variable `max` con el valor `580`
 
-2. Crea una variable `min` con el valor `Math.min(10.2) `
+2. Crea una variable `min` con el valor `10`
 
 3. Crea una variable `numAleatorio` con el valor de un numero aleatorio entre el valor de la variable `min` y el valor de la variable `max`
 que creaste en el paso anterior.
